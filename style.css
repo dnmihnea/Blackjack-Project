@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Cherry+Swash);
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+
+body, html{
+    margin:0;
+    padding:0;
+    background-color: rgb(231, 229, 229) !important;
+}
+
+#navbar{
+    display: flex;
+    height: 12vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image: url("./img/banner.png");
+    font-family: 'Cherry Swash';
+    color: rgb(231, 229, 229);
+    text-shadow: 2px 2px 4px #000000;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Libre Baskerville' !important;
+    margin-top: 5vh;
+}
+
+#hitBtn, #stayBtn, #resetBtn {
+    display: none;
+}
+
+#startBtn, #hitBtn, #stayBtn, #resetBtn {
+    width: 35%;
+    margin: auto;
+    font-size: larger;
+    margin-bottom: 0.7vh;
+}
+
+#playArea{
+    display: flex;
+    margin: auto;
+   height: 45vh;
+   width: 80%;
+   margin-top: 2vh;
+}
+
+#dealerArea{
+    margin: auto;
+    height: 100%;
+    width: 50%;
+}
+
+#playerArea{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+    width: 45%;
+    justify-content: flex-start;
+    align-items: center;
+    font-size:50px;
+
+}
+
+#dealerArea{
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+    width: 45%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:50px;
+}
+
+#cardArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4.35vh;
+    margin-bottom: 2vh;
+    border-bottom: 2px solid black;
+}
+
+#cardSubArea{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+#totalArea{
+    text-align: center;
+}
+
+#resultArea{
+    display: flex;
+    margin: auto;
+    height: 6vh;
+    width: 80%;
+    margin-top:2vh;
+    margin-bottom:3vh;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 12vh;
+    font-size:50px;
+}
+
+.cardSubArea{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
