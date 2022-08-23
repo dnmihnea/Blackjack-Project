@@ -11,7 +11,8 @@ body, html{
     display: flex;
     height: 12vh;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-image: url("./img/banner.png");
+    background-image: url("./img/blackjack.png");
+    filter: grayscale(50%);
     font-family: 'Cherry Swash';
     color: rgb(231, 229, 229);
     text-shadow: 2px 2px 4px #000000;
